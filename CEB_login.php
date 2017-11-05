@@ -1,3 +1,33 @@
+
+<?php
+    $sereverName ='127.0.0.1';
+    $userName = 'root';
+    $passWord = '';
+    $dbName = 'ceb';
+    $db = mysqli_connect($sereverName,$userName,$passWord,$dbName);
+    if (!$db){
+        die("Database Connection Failed" . mysqli_error($db));
+    }
+   session_start();
+
+    if (isset($_POST['username']) and isset($_POST['password'])){
+        $username = $_POST['username'];
+        $password = $_POST['password'];
+
+
+        $query = "SELECT * FROM 'Customer' WHERE user_name = '$username' and password = '$password'";
+        $result = mysqli_query($db,$query) or die (mysqli_error($db));
+        $count = mysqli_num_rows($result);
+
+        if($count==1){
+            $_SESSION['username']=$username;
+
+        }else{
+            $fmsg = "Invalid Login Credentails.";
+        }
+    }
+
+?>
 <!DOCTYPE HTML>
 <!--
 	Retrospect by TEMPLATED
@@ -39,18 +69,17 @@
             <div class="row uniform 50%">
                 <div class="6u 12u$(xsmall)">
                     <h4>Username</h4>
-                    <input name="name" placeholder="Username" type="text" />
+                    <input name="username" placeholder="Username" type="text" />
                 </div>
                 <div class="6u$ 12u$(xsmall)">
                     <h4>Password</h4>
-                    <input name="email" placeholder="Password" type="email" />
+                    <input name="password" placeholder="Password" type="password" />
                 </div>
             </div>
         </div>
         <ul class="actions">
-            <li><a href="login.html" class="button big special">Login</a></li>
+            <li><a href="Customer Acc.html" class="button big special">Login</a></li>
         </ul>
-
     </form>
 
 </section>
