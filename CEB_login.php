@@ -1,33 +1,5 @@
 
-<?php
-    $sereverName ='127.0.0.1';
-    $userName = 'root';
-    $passWord = '';
-    $dbName = 'ceb';
-    $db = mysqli_connect($sereverName,$userName,$passWord,$dbName);
-    if (!$db){
-        die("Database Connection Failed" . mysqli_error($db));
-    }
-   session_start();
 
-    if (isset($_POST['username']) and isset($_POST['password'])){
-        $username = $_POST['username'];
-        $password = $_POST['password'];
-
-
-        $query = "SELECT * FROM 'Customer' WHERE user_name = '$username' and password = '$password'";
-        $result = mysqli_query($db,$query) or die (mysqli_error($db));
-        $count = mysqli_num_rows($result);
-
-        if($count==1){
-            $_SESSION['username']=$username;
-
-        }else{
-            $fmsg = "Invalid Login Credentails.";
-        }
-    }
-
-?>
 <!DOCTYPE HTML>
 <!--
 	Retrospect by TEMPLATED
@@ -64,7 +36,7 @@
     <i class="icon fa-diamond"></i>
     <h2>Cylon Electricity Board</h2>
     <p>We light up your future</p>
-    <form action="#" method="POST">
+    <form action="login_submit.php" method="POST">
         <div class="container 75%">
             <div class="row uniform 50%">
                 <div class="6u 12u$(xsmall)">
@@ -78,8 +50,9 @@
             </div>
         </div>
         <ul class="actions">
-            <li><a href="Customer Acc.html" class="button big special">Login</a></li>
+            <li><button type="submit" class="btn tf-btn btn-default" name='from' value="1">Login</button></li>
         </ul>
+        <P><?php echo $message?></P>
     </form>
 
 </section>

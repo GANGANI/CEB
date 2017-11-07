@@ -1,9 +1,12 @@
-<!DOCTYPE HTML>
-<!--
-	Retrospect by TEMPLATED
-	templated.co @templatedco
-	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
--->
+<?php
+include "Connection.php";
+$con = new connec();
+$conn = $con->makeConnection();
+$username=$_POST['but'];
+$sql = "SELECT name,email,phone_number,address FROM customer where user_name = '$username'";
+$result = $conn->query($sql);
+$row = $result->fetch_assoc();
+?>
 <html>
 <head>
     <title>Inquiry-CEB</title>
@@ -41,30 +44,30 @@
         <!-- Form -->
         <section>
             <h3>Make Inquiry</h3>
-            <form method="post" action="#">
+            <form method="post" action="Inquiry.php">
                 <div class="row uniform 50%">
                     <div class="6u 12u$(xsmall)">
-                        <input type="text" name="name" id="name" value="" placeholder="Name" />
+                        <input type="text" name="username" id="name" value=<?php echo $username?> placeholder=<?php echo $username?> readonly/>
                     </div>
                     <div class="6u$ 12u$(xsmall)">
-                        <input type="email" name="email" id="email" value="" placeholder="Email" />
+                        <input type="email" name="email" id="email" value=<?php echo $row['email']?> placeholder=<?php echo $row['email']?> readonly/>
                     </div>
                     <div class="6u 12u$(xsmall)">
-                        <input type="text" name="name" id="phone_no" value="" placeholder="Phone No." />
+                        <input type="text" name="phoneNumber" id="phone_no" value=<?php echo $row['phone_number']?> placeholder=<?php echo $row['phone_number']?> />
                     </div>
                     <div class="6u$ 12u$(xsmall)">
-                        <input type="text" name="email" id="address" value="" placeholder="Address" />
+                        <input type="text" name="address" id="address" value=<?php echo $row['address']?> placeholder=<?php echo $row['address']?> />
                     </div>
                     <div class="12u$">
-                        <textarea name="inquiry name" id="inquiry name" placeholder="Inquiry name" rows="1"></textarea>
+                        <textarea name="inquiryName" id="inquiry name" placeholder="Inquiry name" rows="1"></textarea>
                     </div>
                     <div class="12u$">
                         <textarea name="message" id="message" placeholder="Enter your inquiry" rows="6"></textarea>
                     </div>
                     <div class="12u$">
                         <ul class="actions">
-                            <li><input type="submit" value="Send Inquiry" class="special" /></li>
-                            <li><input type="reset" value="Reset" /></li>
+                            <li><button type="submit" class="btn tf-btn btn-default" name="from" value="Account">Submit</button></li>
+                            <li><button type="reset" class="btn tf-btn btn-default" />Reset</li>
                         </ul>
                     </div>
                 </div>
@@ -79,17 +82,17 @@
     <div class="inner">
         <ul class="icons">
             <li><a href="#" class="icon fa-facebook">
-                <span class="label">Facebook</span>
-            </a></li>
+                    <span class="label">Facebook</span>
+                </a></li>
             <li><a href="#" class="icon fa-twitter">
-                <span class="label">Twitter</span>
-            </a></li>
+                    <span class="label">Twitter</span>
+                </a></li>
             <li><a href="#" class="icon fa-instagram">
-                <span class="label">Instagram</span>
-            </a></li>
+                    <span class="label">Instagram</span>
+                </a></li>
             <li><a href="#" class="icon fa-linkedin">
-                <span class="label">LinkedIn</span>
-            </a></li>
+                    <span class="label">LinkedIn</span>
+                </a></li>
         </ul>
         <ul class="copyright">
             <li>&copy; Untitled.</li>

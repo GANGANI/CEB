@@ -1,9 +1,4 @@
-<!DOCTYPE HTML>
-<!--
-	Retrospect by TEMPLATED
-	templated.co @templatedco
-	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
--->
+
 <html>
 <head>
     <title>CEB-Customer Account</title>
@@ -41,7 +36,7 @@
 
         <header>
             <p>your logged in as</p>
-            <h2>H.B.G.C.Ariyarathne</h2>
+            <h2><?php echo $name?></h2>
             <p></p>
         </header>
         <div class="flex flex-4">
@@ -49,25 +44,28 @@
                 <div class="image round">
                     <a href="conn_req_view.html"><img src="images/img5.png"  /></a>
                 </div>
-                <h3>Connection Requests</h3>
+                <a href="#" class="button">Connection<br> Request </a>
+
             </div>
             <div class="box person">
                 <div class="image round">
-                    <a href="Inquiry.php"><img src="images/img7.png"  /></a>
+                    <img src="images/img7.png"  />
                 </div>
-                <h3>Make Inquiry</h3>
+                <form action="Inquiry_new_PHP.php" method="post">
+                    <button type="submit" class="btn tf-btn btn-default" name="but" value=<?php echo $username?>>View</button>
+                </form>
             </div>
             <div class="box person">
                 <div class="image round">
                     <a href="Mail.html"><img src="images/img8.png"  /></a>
                 </div>
-                <h3>View my Account</h3>
+                <a href="#" class="button">View my<br>Account</a>
             </div>
             <div class="box person">
                 <div class="image round">
                     <a href="Mail.html"><img src="images/img9.png"  /></a>
                 </div>
-                <h3>Bill Payments</h3>
+                <a href="#" class="button">Bill Payments</a>
             </div>
 
         </div>
@@ -80,17 +78,17 @@
     <div class="inner">
         <ul class="icons">
             <li><a href="#" class="icon fa-facebook">
-                <span class="label">Facebook</span>
-            </a></li>
+                    <span class="label">Facebook</span>
+                </a></li>
             <li><a href="#" class="icon fa-twitter">
-                <span class="label">Twitter</span>
-            </a></li>
+                    <span class="label">Twitter</span>
+                </a></li>
             <li><a href="#" class="icon fa-instagram">
-                <span class="label">Instagram</span>
-            </a></li>
+                    <span class="label">Instagram</span>
+                </a></li>
             <li><a href="#" class="icon fa-linkedin">
-                <span class="label">LinkedIn</span>
-            </a></li>
+                    <span class="label">LinkedIn</span>
+                </a></li>
         </ul>
         <ul class="copyright">
             <li>&copy; Untitled.</li>

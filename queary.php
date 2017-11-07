@@ -1,16 +1,16 @@
 <?php
 
-include "Connection.php";
-
-
 class queary
 {
 
 
-    function simple_select($array, $table)
+    function simple_select($array, $table, $Id,$n)
     {
-        $conn = new connec();
-        $conn = $conn->makeConnection();
+        $sereverName ='127.0.0.1';
+        $userName = 'root';
+        $passWord = '';
+        $dbName = 'ceb';
+        $conn = mysqli_connect($sereverName,$userName,$passWord,$dbName);
         $str = '';
         for ($i = 0; $i < count($array); $i++) {
 
@@ -18,14 +18,17 @@ class queary
 
         }
         $str = substr($str, 1);
-        $sql = "SELECT $str FROM  $table";
+        $sql = "SELECT $str FROM  $table ORDER BY $Id DESC LIMIT 1,$n";
         $result = $conn->query($sql);
         return $result;
     }
     function condition_select($array, $table,$where)
     {
-        $conn = new connec();
-        $conn = $conn->makeConnection();
+        $sereverName ='127.0.0.1';
+        $userName = 'root';
+        $passWord = '';
+        $dbName = 'ceb';
+        $conn = mysqli_connect($sereverName,$userName,$passWord,$dbName);
         $str = '';
         for ($i = 0; $i < count($array); $i++) {
 
