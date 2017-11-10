@@ -25,6 +25,7 @@ if (isset($_POST['username']) and isset($_POST['password'])){
             header("Location:../../Customer/php/cus_view2.php");
         }elseif ($substr == "MR"){
             //include "";
+            header("Location:../../Meter_Reader/gui.php");
         }elseif ($substr == "OP"){
             //echo "awa";
             //echo "username is".$_SESSION['us'];

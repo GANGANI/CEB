@@ -27,6 +27,8 @@ include "conn_req_view_data.php"
         <li><a href="conn_req_all_gui.php">NEW REQUESTS</a></li>
         <li><a href="Inquery_gui_php.php">INQUIRIES</a></li>
         <li><a href="../html/Mail.html">DROP MAIL</a></li>
+        <li><a href="../../editdetails/editdetail_gui.php">EDIT DETAILS</a></li>
+        <li><a href="../../Common/Log_out.php">Log out</a></li>
     </ul>
 </nav>
 
@@ -43,13 +45,14 @@ include "conn_req_view_data.php"
                 <table>
                     <tbody>
                     <tr>
-                        <td>User ID(if exists)</td>
-                        <td></td>
+
+                        <td>Applicant's Name</td>
+                        <td><?php echo $name?></td>
 
                     </tr>
                     <tr>
-                        <td>User Name</td>
-                        <td><?php echo $name?></td>
+                        <td>NIC no:</td>
+                        <td><?php echo $nic?></td>
 
                     </tr>
                     <tr>
@@ -58,23 +61,33 @@ include "conn_req_view_data.php"
 
                     </tr>
                     <tr>
-                        <td>Address</td>
-                        <td><?php echo $address?></td>
+                        <td>Contact Address of the Applicant</td>
+                        <td><?php echo $contact_address?></td>
 
                     </tr>
                     <tr>
-                        <td>Tele</td>
+                        <td>Telephone</td>
                         <td><?php echo $pn?></td>
 
                     </tr>
                     <tr>
-                        <td>Connection Type</td>
-                        <td><?php echo $type?></td>
+                        <td>Requesting Connection Type</td>
+                        <td><?php echo $type_id ?></td>
 
                     </tr>
                     <tr>
-                        <td>Description</td>
-                        <td><?php echo $des?></td>
+                        <td>Location address for the requesting connection</td>
+                        <td><?php echo $location_address ?></td>
+
+                    </tr
+                    <tr>
+                        <td>Closest branch_no for the above Location</td>
+                        <td><?php echo $branch_no  ?></td>
+
+                    </tr
+                    <tr>
+                        <td>Neighbour Connection Id in the Location</td>
+                        <td><?php echo $neighbour_conn_id?></td>
 
                     </tr>
 
@@ -104,23 +117,23 @@ include "conn_req_view_data.php"
 <footer id="footer">
     <div class="inner">
         <ul class="icons">
-            <li><a href="#" class="icon fa-facebook">
+            <li><a href="https://www.facebook.com/CeylonElectricityBoard/" class="icon fa-facebook">
                     <span class="label">Facebook</span>
                 </a></li>
-            <li><a href="#" class="icon fa-twitter">
+            <li><a href="https://twitter.com/CEB_lk?lang=en" class="icon fa-twitter">
                     <span class="label">Twitter</span>
                 </a></li>
             <li><a href="#" class="icon fa-instagram">
                     <span class="label">Instagram</span>
                 </a></li>
-            <li><a href="#" class="icon fa-linkedin">
+            <li><a href="https://www.linkedin.com/company/ceylon-electricity-board" class="icon fa-linkedin">
                     <span class="label">LinkedIn</span>
                 </a></li>
         </ul>
         <ul class="copyright">
-            <li>&copy; Untitled.</li>
+            <li>&copy; MINDLABZ</li>
+            <li>24 hours call center DIAL 1987</li>
 
-            <li>Design by: <a href="">MIND LABS GROUP</a>.</a>.</li>
         </ul>
     </div>
 </footer>

@@ -1,0 +1,184 @@
+﻿CREATE TABLE Customer(
+	customer_id 	varchar(10)  , 
+	NIC_no             	varchar(10)   	not null,
+	user_name             	varchar(100) 	not null , 
+	password             	varchar(10)      	not null, 
+	name                        varchar(100)       	not null, 	
+	email                        varchar(100),
+	address                varchar(100)    	    	not null,
+	phone_number        int(10)                	not null,
+    	PRIMARY KEY(customer_id));
+
+
+CREATE TABLE Meter_Reader(
+	meter_reader_id      	varchar(10)  ,
+            	NIC_no                	varchar(10)      	not null        ,
+            	user_name              	varchar(100)        	not null,//name for login
+            	password             	varchar(10)       	not null, 
+            	email                        	varchar(50)        	not null,
+	name                        	varchar(100)        	not null, //name 
+            	address                	varchar(100)        	not null,
+            	phone_number        	int(10)                 	not null, 
+            	branch_no                	varchar(10),
+ 	PRIMARY KEY(meter_reader_id),
+	FOREIGN KEY (branch_no) REFERENCES Branch(branch_no) on delete set null );
+
+
+
+
+CREATE TABLE Admin(
+	admin_id             	varchar(10) ,
+            	NIC_no                  	varchar(10)     	not null,
+            	user_name                    	varchar(100)        	not null,
+            	password               	varchar(10)         	not null, 
+	name                         	varchar(100)        	not null, 
+            	email                         	varchar(50)        	not null ,
+           	address                        	varchar(100)         	not null ,
+            	phone_number              int(10)                	not null,
+     	PRIMARY KEY(admin_id));
+
+
+CREATE TABLE Branch_IToperator (
+	operator_id                 	varchar(10) ,
+            	NIC_no                 	varchar(10)        	not null,
+            	user_name                	varchar(100)        	not null ,
+        	branch_no                	varchar(10) ,
+            	password                	varchar(10)        	not null ,
+	name                        	varchar(100)        	not null, 
+            	email                         	varchar(50)        	not null,
+            	address                	varchar(100)         	not null,
+            	phone_number        	int(10)                	not null,        
+   	PRIMARY KEY(operator_id),
+   	FOREIGN KEY (branch_no) REFERENCES Branch(branch_no) on delete set null);
+
+
+CREATE TABLE Connection (
+	connection_id         	varchar(10) ,
+            	customer_id                	varchar(10) 	not null,
+            	branch_no                	varchar(10)        	not null, 
+            	type_id                	varchar(10)        	not null, 
+            	connection_state        	varchar(20),
+        	location_address       	varchar(200)     	not null,
+        	due_amount                  numeric(12,2)         	not null,
+	CONSTRAINT check_connection_state check (connection_state in ('connected','temp_disconnected','disconnected')),
+	PRIMARY KEY(connection_id),
+	FOREIGN key(customer_id) REFERENCES Customer(customer_id),
+	FOREIGN key(type_id) REFERENCES Type(type_id),
+	FOREIGN KEY (branch_no) REFERENCES Branch(branch_no)  );
+
+
+
+
+CREATE TABLE  Assigned_Connection (
+	meter_reader_id        	varchar(10) ,
+	connection_id          	varchar(10) ,
+	assigned_date          	varchar(10)        	not null,
+	has_read                 	varchar(1)         	DEFAULT '0',
+	PRIMARY KEY(meter_reader_id,connection_id),
+	FOREIGN KEY (meter_reader_id) REFERENCES Meter_Reader(meter_reader_id) ,
+	FOREIGN KEY (connection_id) REFERENCES Connection (connection_id));
+
+
+CREATE TABLE Type(
+ 	type_id                 	varchar(10), 
+ 	type_name                	varchar(20),
+ 	current_phase         	varchar(8),  
+ 	current_amount         	varchar(10)     	not null,                  
+	CONSTRAINT check_current_phase check (current_phase in ('single','3phase')),
+	CONSTRAINT check_type_name check (type_name in ('house','religious','hotel','shop','industrial',’other’)),
+	PRIMARY KEY(type_id))  ;
+
+
+
+
+
+
+CREATE TABLE Unit_range (
+	range_id           	int(11),
+	type_id                	varchar(10),
+            	U_range                        varchar(20)         	not null, 
+            	energy_charge        	numeric(5,2)        	not null, 
+            	fixed_charge            	numeric(5,2)        	not null,
+	PRIMARY KEY(range_id, type_id),
+	FOREIGN key(type_id) REFERENCES Type(type_id) on delete cascade );)
+
+
+CREATE TABLE Bill_details(
+	connection_id       	varchar(10),
+            	bill_no                      	varchar(10), 
+            	meter_reading            	int(6)                	not null,
+            	month                      	varchar(10)        	not null,
+            	monthly_bill             	decimal(6,2)        	not null,
+            	reading_date              	varchar(12)        	not null,
+	meter_reader_id        	varchar(10)     	not null ,
+        	units                         	decimal(6,0),
+            	PRIMARY KEY(connection_id,bill_no) ,
+	FOREIGN KEY (meter_reader_id) REFERENCES Meter_Reader(meter_reader_id) ,
+            	FOREIGN key(connection_id) REFERENCES Connection(connection_id) );
+
+
+CREATE TABLE Payments(
+	connection_id    	varchar(10),
+	payment_id               	varchar(10),         
+	amount                        	numeric(8,2)         	not null,
+	paid_date               	varchar(10)         	not null,
+	PRIMARY KEY( connection_id,payment_id) ,
+	FOREIGN key(connection_id) REFERENCES Connection(connection_id));
+
+
+CREATE TABLE Branch (
+	branch_no           	varchar(10) ,
+            	branch_name          	varchar(20)          	not null,
+            	Location                        varchar(100)         	not null,
+            	PRIMARY KEY(branch_no));
+
+
+CREATE TABLE Connection_request(
+	request_id           	varchar(10),
+            	branch_no              	varchar(10) ,
+            	NIC                         	varchar(10)         	not null,
+	name                        	varchar(10)         	not null ,
+            	email                        	varchar(50) , 
+            	phone_number         	int(10)                 	not null,
+        	contact_address        	varchar(200),
+	location_address       	varchar(200),
+	neighbour_conn_id    	varchar(10),
+          	type_id                        	varchar(10) ,
+        	Read_state              	varchar(10)        	not null,
+         	PRIMARY KEY(request_id) ,
+            	FOREIGN key(branch_no) REFERENCES Branch(branch_no)on delete set null,
+	FOREIGN key(type_id) REFERENCES Type(type_id) on delete set null);
+
+
+CREATE TABLE Events (
+	event_id         	varchar(10) , 
+            	event_name     	varchar(20)        	not null ,
+            	date                             	varchar(10) , 
+            	time                              	varchar(10) ,
+            	description                 	varchar(100),
+        	image                       	longblob,
+ 	PRIMARY KEY(event_id) );
+
+
+
+
+CREATE TABLE Report (
+	report_id    		varchar(10) ,
+            	year                          		numeric(4,0) ,
+            	annual_consumption 		numeric(10,2)        	not null,
+            	number_of_newConnections        	int(255)                	not null,
+            	PRIMARY KEY (report_id)) ; 
+
+
+CREATE TABLE Inquiries(
+	inquiry_id         	varchar(10),
+	customer_id                	varchar(10) ,
+	name                        	varchar(50)         	not null,
+	email                        	varchar(50)                	not null , 
+	telephone_no                int(10) ,
+	address                	varchar(100),
+	message                	varchar(1000)	not null,
+	read_state                 	varchar(5)  	not null,
+	Inquiry                       	varchar(50) 	not null
+ 	PRIMARY KEY(inquiry_id),
+ 	FOREIGN KEY (customer_id) REFERENCES Customer(customer_id));

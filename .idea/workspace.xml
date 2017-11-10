@@ -1,7 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2870117d-2592-46fd-8029-5019e6819053" name="Default" comment="" />
+    <list default="true" id="2870117d-2592-46fd-8029-5019e6819053" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CREDITS.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Customer/php/Log_out.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LICENSE.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LICENSE1.txt" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Customer/CSS/1assets/css/main.css" afterPath="$PROJECT_DIR$/Customer/CSS/1assets/css/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Customer/CSS/assets/css/main.css" afterPath="$PROJECT_DIR$/Customer/CSS/assets/css/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Customer/php/Inquiry.php" afterPath="$PROJECT_DIR$/Customer/php/Inquiry.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Customer/php/Inquiry_new_PHP.php" afterPath="$PROJECT_DIR$/Customer/php/Inquiry_new_PHP.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Customer/php/cus_view2.php" afterPath="$PROJECT_DIR$/Customer/php/cus_view2.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/editdetails/editdetail_gui.php" afterPath="$PROJECT_DIR$/editdetails/editdetail_gui.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/itoperator/html/index.html" afterPath="$PROJECT_DIR$/itoperator/html/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/itoperator/php/Inquery_gui_php.php" afterPath="$PROJECT_DIR$/itoperator/php/Inquery_gui_php.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/itoperator/php/Mail.php" afterPath="$PROJECT_DIR$/itoperator/php/Mail.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/itoperator/php/conn_req_all_gui.php" afterPath="$PROJECT_DIR$/itoperator/php/conn_req_all_gui.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/itoperator/php/conn_req_view_data.php" afterPath="$PROJECT_DIR$/itoperator/php/conn_req_view_data.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/itoperator/php/conn_req_view_php.php" afterPath="$PROJECT_DIR$/itoperator/php/conn_req_view_php.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/itoperator/php/inquiry_view_data.php" afterPath="$PROJECT_DIR$/itoperator/php/inquiry_view_data.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/itoperator/php/view_inq_php.php" afterPath="$PROJECT_DIR$/itoperator/php/view_inq_php.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/itoperator/style/assets/css/main.css" afterPath="$PROJECT_DIR$/itoperator/style/assets/css/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/login/CSS/assets/css/main.css" afterPath="$PROJECT_DIR$/login/CSS/assets/css/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/login/php/CEB_login.php" afterPath="$PROJECT_DIR$/login/php/CEB_login.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/login/php/Customer Acc.php" afterPath="$PROJECT_DIR$/login/php/Customer Acc.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/login/php/home.php" afterPath="$PROJECT_DIR$/login/php/home.php" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,43 +36,22 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="test.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/login/php/test.php">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="525">
+      <file leaf-file-name="cus_view2.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Customer/php/cus_view2.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="conn_req_all_gui.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/itoperator/php/conn_req_all_gui.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1590">
-              <caret line="53" column="42" lean-forward="false" selection-start-line="53" selection-start-column="42" selection-end-line="53" selection-end-column="42" />
+            <state relative-caret-position="30">
+              <caret line="26" column="14" lean-forward="false" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
               <folding>
-                <marker date="1510086156435" expanded="true" signature="1972:2306" ph="..." />
-                <marker date="1510086156435" expanded="true" signature="2071:2288" ph="..." />
-                <marker date="1510086156435" expanded="true" signature="2122:2273" ph="..." />
+                <marker date="1510165770883" expanded="true" signature="148:180" ph="SELECT name customer" />
+                <marker date="1510165770883" expanded="true" signature="148:197" ph="SELECT name customer" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="conn_req_view_data.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/itoperator/php/conn_req_view_data.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="1" column="22" lean-forward="false" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="conn_req_view_php.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/itoperator/php/conn_req_view_php.php">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/itoperator/html/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -56,89 +60,159 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Inquery_gui_php.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/itoperator/php/Inquery_gui_php.php">
+      <file leaf-file-name="viewAccount.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Customer/php/viewAccount.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="510">
+              <caret line="92" column="22" lean-forward="true" selection-start-line="92" selection-start-column="22" selection-end-line="92" selection-end-column="22" />
               <folding>
-                <marker date="1510086276080" expanded="true" signature="1928:2260" ph="..." />
-                <marker date="1510086276080" expanded="true" signature="2030:2242" ph="..." />
-                <marker date="1510086276080" expanded="true" signature="2076:2227" ph="..." />
+                <marker date="1510200308910" expanded="true" signature="148:206" ph="SELECT name,... customer" />
+                <marker date="1510200308910" expanded="true" signature="2270:2437" ph="SELECT bill_... " />
+                <marker date="1510200308910" expanded="true" signature="2585:2805" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="inquiry_view_data.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/itoperator/php/inquiry_view_data.php">
+      <file leaf-file-name="home.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/login/php/home.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="1" column="22" lean-forward="false" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
-              <folding />
+            <state relative-caret-position="355">
+              <caret line="49" column="10" lean-forward="false" selection-start-line="49" selection-start-column="10" selection-end-line="49" selection-end-column="10" />
+              <folding>
+                <marker date="1510203456389" expanded="true" signature="106:186" ph="SELECT event... events" />
+                <marker date="1510203456389" expanded="true" signature="389:469" ph="SELECT event... events" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Mail.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/itoperator/php/Mail.php">
+      <file leaf-file-name="add_reading.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Meter_Reader/add_reading.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2637">
+            <state relative-caret-position="-1180">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1510118438000" expanded="true" signature="304:384" ph="SELECT max(b... bill_details" />
+                <marker date="1510118438000" expanded="true" signature="822:935" ph="SELECT meter... bill_details" />
+                <marker date="1510118438000" expanded="true" signature="1420:1555" ph="SELECT * FRO... unit_range" />
+                <marker date="1510118438000" expanded="true" signature="1463:1536" ph="SELECT type_... connection" />
+                <marker date="1510118438000" expanded="true" signature="2383:2463" ph="SELECT due_a... Connection" />
+                <marker date="1510118438000" expanded="true" signature="2597:2702" ph="Update Conne... " />
+                <marker date="1510118438000" expanded="true" signature="2770:2909" ph="Update assig... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="enter_request.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Customer/php/enter_request.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1139">
+              <caret line="42" column="19" lean-forward="false" selection-start-line="42" selection-start-column="19" selection-end-line="42" selection-end-column="19" />
+              <folding>
+                <marker date="1510169446355" expanded="true" signature="263:441" ph="INSERT INTO connection_request... " />
+                <marker date="1510169446355" expanded="true" signature="1188:1254" ph="SELECT branc... branch" />
+                <marker date="1510169446355" expanded="true" signature="1366:1496" ph="SELECT type_... type" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CEB_DDL_final.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CEB_DDL_final.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="response_handler.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/itoperator/php/response_handler.php">
+      <file leaf-file-name="gui.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Meter_Reader/gui.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="1" column="22" lean-forward="false" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
+            <state relative-caret-position="-1030">
+              <caret line="25" column="36" lean-forward="false" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="view_inq_php.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/itoperator/php/view_inq_php.php">
+      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Customer/CSS/1assets/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3657">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="72000">
+              <caret line="2400" column="50" lean-forward="false" selection-start-line="2400" selection-start-column="50" selection-end-line="2400" selection-end-column="50" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login_submit.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/login/php/login_submit.php">
+      <file leaf-file-name="get_connections.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Meter_Reader/get_connections.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="35">
-              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="302">
+              <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+              <folding>
+                <marker date="1510144251590" expanded="true" signature="357:434" ph="SELECT meter... meter_reader" />
+                <marker date="1510144251590" expanded="true" signature="547:695" ph="SELECT meter... *" />
+                <marker date="1510144251590" expanded="true" signature="593:665" ph="SELECT * FRO... meter_reader" />
+                <marker date="1510144251590" expanded="true" signature="1354:1695" ph="select disti... connection_id" />
+                <marker date="1510144251590" expanded="true" signature="1448:1664" ph="select disti... connection_id" />
+                <marker date="1510144251590" expanded="true" signature="1514:1631" ph="SELECT disti... assigned_connection" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/itoperator/php/Connection.php" />
         <option value="$PROJECT_DIR$/Customer/php/INQ.php" />
-        <option value="$PROJECT_DIR$/Customer/php/cus_view2.php" />
-        <option value="$PROJECT_DIR$/Customer/php/Inquiry.php" />
-        <option value="$PROJECT_DIR$/Customer/php/Inquiry_new_PHP.php" />
-        <option value="$PROJECT_DIR$/login/php/CEB_login.php" />
-        <option value="$PROJECT_DIR$/login/php/Customer Acc.php" />
         <option value="$PROJECT_DIR$/login/php/Customer View_PHP.php" />
-        <option value="$PROJECT_DIR$/login/php/home.php" />
+        <option value="$PROJECT_DIR$/itoperator/php/response_handler.php" />
+        <option value="$PROJECT_DIR$/Customer/php/viewAccount_PHP.php" />
+        <option value="$PROJECT_DIR$/Meter_Reader/database.php" />
+        <option value="$PROJECT_DIR$/login/php/login_submit.php" />
+        <option value="$PROJECT_DIR$/login/php/Customer Acc.php" />
+        <option value="$PROJECT_DIR$/Meter_Reader/get_connections.php" />
+        <option value="$PROJECT_DIR$/login/CSS/assets/css/main.css" />
+        <option value="$PROJECT_DIR$/Customer/CSS/assets/css/main.css" />
+        <option value="$PROJECT_DIR$/Meter_Reader/assets/css/main.css" />
+        <option value="$PROJECT_DIR$/Common/Log_out.php" />
+        <option value="$PROJECT_DIR$/login/php/CEB_login.php" />
+        <option value="$PROJECT_DIR$/Customer/php/Bill_payment/setconnection.php" />
+        <option value="$PROJECT_DIR$/Customer/php/Inquiry.php" />
+        <option value="$PROJECT_DIR$/itoperator/php/conn_req_view_php.php" />
+        <option value="$PROJECT_DIR$/itoperator/php/Mail.php" />
+        <option value="$PROJECT_DIR$/itoperator/php/view_inq_php.php" />
+        <option value="$PROJECT_DIR$/Customer/php/Inquiry_new_PHP.php" />
+        <option value="$PROJECT_DIR$/Customer/php/cus_view2.php" />
+        <option value="$PROJECT_DIR$/Customer/php/Bill_payment/BillDetails.php" />
+        <option value="$PROJECT_DIR$/Customer/php/Bill_payment/dopayment.php" />
+        <option value="$PROJECT_DIR$/Meter_Reader/gui.php" />
+        <option value="$PROJECT_DIR$/editdetails/editdetail_gui.php" />
+        <option value="$PROJECT_DIR$/editdetails/edit_data.php" />
+        <option value="$PROJECT_DIR$/Customer/php/database.php" />
+        <option value="$PROJECT_DIR$/Customer/php/enter_request.php" />
+        <option value="$PROJECT_DIR$/Customer/php/Bill_payment/app/init.php" />
+        <option value="$PROJECT_DIR$/Customer/php/new_request.php" />
         <option value="$PROJECT_DIR$/itoperator/php/conn_req_all_gui.php" />
         <option value="$PROJECT_DIR$/itoperator/php/conn_req_view_data.php" />
-        <option value="$PROJECT_DIR$/itoperator/php/Inquery_gui_php.php" />
         <option value="$PROJECT_DIR$/itoperator/php/inquiry_view_data.php" />
-        <option value="$PROJECT_DIR$/itoperator/php/response_handler.php" />
+        <option value="$PROJECT_DIR$/itoperator/php/Inquery_gui_php.php" />
+        <option value="$PROJECT_DIR$/itoperator/style/assets/css/main.css" />
+        <option value="$PROJECT_DIR$/Customer/CSS/1assets/css/main.css" />
+        <option value="$PROJECT_DIR$/itoperator/html/index.html" />
+        <option value="$PROJECT_DIR$/Customer/php/viewAccount.php" />
+        <option value="$PROJECT_DIR$/login/php/home.php" />
       </list>
     </option>
   </component>
@@ -153,12 +227,11 @@
       <server host="localhost" id="faa33701-cd28-4b3e-8076-7a3b88466e1b" name="Unnamed" />
     </servers>
   </component>
-  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP 5.6" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-9" />
-    <option name="y" value="-9" />
-    <option name="width" value="1938" />
-    <option name="height" value="1048" />
+    <option name="x" value="-8" />
+    <option name="width" value="1916" />
+    <option name="height" value="1038" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -175,8 +248,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -199,6 +270,20 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="Meter_Reader" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CEB" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CEB" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="login" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
@@ -218,38 +303,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="login" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CEB" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CEB" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="itoperator" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CEB" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CEB" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="itoperator" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="php" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -282,30 +335,18 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Customer" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CEB" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CEB" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Common" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../payment" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -362,6 +403,12 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
@@ -402,31 +449,37 @@
       <option name="presentableId" value="Default" />
       <updated>1510077831091</updated>
       <workItem from="1510077832620" duration="8469000" />
+      <workItem from="1510118376997" duration="4431000" />
+      <workItem from="1510137992160" duration="31625000" />
+      <workItem from="1510176216228" duration="41000" />
+      <workItem from="1510194319339" duration="4085000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8469000" />
+    <option name="totallyTimeSpent" value="48651000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <frame x="-8" y="0" width="1916" height="1038" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31145832" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2813488" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32893157" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32893157" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -443,87 +496,48 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/itoperator/php/Connection.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="7" column="27" lean-forward="false" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Customer/php/INQ.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="2" column="14" lean-forward="false" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Customer/php/cus_view2.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="1" column="22" lean-forward="false" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
-          <folding>
-            <marker date="1510085576525" expanded="true" signature="162:194" ph="SELECT name customer" />
-            <marker date="1510085576525" expanded="true" signature="162:211" ph="SELECT name customer" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Customer/php/Inquiry.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="1" column="22" lean-forward="false" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
-          <folding>
-            <marker date="1510085576438" expanded="true" signature="633:694" ph="SELECT custo... customer" />
-            <marker date="1510085576438" expanded="true" signature="813:983" ph="INSERT INTO inquiries... " />
-            <marker date="1510085576438" expanded="true" signature="1121:1273" ph="INSERT INTO Inquiries... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Customer/php/Inquiry_new_PHP.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="1" column="22" lean-forward="false" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
-          <folding>
-            <marker date="1510085576495" expanded="true" signature="148:226" ph="SELECT name,... customer" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Customer/php/queary.php">
+    <entry file="file://$PROJECT_DIR$/Customer/php/queary.php" />
+    <entry file="file://$PROJECT_DIR$/login/php/test.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Customer/php/Log_out.php">
+    <entry file="file://$PROJECT_DIR$/itoperator/php/home.php" />
+    <entry file="file://$PROJECT_DIR$/itoperator/php/response_handler.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="1" column="22" lean-forward="false" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Customer/php/viewAccount_PHP.php" />
+    <entry file="file://$PROJECT_DIR$/login/php/login_submit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="15" column="35" lean-forward="false" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Meter_Reader/database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-6431">
+          <caret line="9" column="37" lean-forward="false" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Common/Connection.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="4" column="32" lean-forward="false" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/templated-theory/assets/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/login/php/CEB_login.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="25" column="29" lean-forward="false" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/login/php/Customer Acc.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="625">
-          <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
-          <folding>
-            <marker date="1510085843723" expanded="true" signature="262:340" ph="SELECT * FRO... ${$table}" />
-            <marker date="1510085843723" expanded="true" signature="488:541" ph="select name customer" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -531,116 +545,328 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="1" column="22" lean-forward="false" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
-          <folding>
-            <marker date="1510085843845" expanded="true" signature="254:307" ph="select name customer" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/login/php/home.php">
+    <entry file="file://$PROJECT_DIR$/Meter_Reader/assets/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="1" column="22" lean-forward="false" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
-          <folding>
-            <marker date="1510085843907" expanded="true" signature="106:186" ph="SELECT event... events" />
-            <marker date="1510085843907" expanded="true" signature="389:469" ph="SELECT event... events" />
-          </folding>
+        <state relative-caret-position="332">
+          <caret line="3881" column="78" lean-forward="false" selection-start-line="3881" selection-start-column="78" selection-end-line="3881" selection-end-column="78" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/login/php/login_submit.php">
+    <entry file="file://$PROJECT_DIR$/Customer/php/Log_out.php" />
+    <entry file="file://$PROJECT_DIR$/Common/Log_out.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="35">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="150">
+          <caret line="5" column="30" lean-forward="false" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/login/php/test.php">
+    <entry file="file://$PROJECT_DIR$/login/php/Customer Acc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="810">
+          <caret line="27" column="51" lean-forward="false" selection-start-line="27" selection-start-column="51" selection-end-line="27" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://H:/itoperator/php/conn_req_view_data.php" />
+    <entry file="file://H:/itoperator/php/conn_req_view_php.php" />
+    <entry file="file://$PROJECT_DIR$/login/php/CEB_login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login/CSS/assets/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="479">
+          <caret line="3889" column="0" lean-forward="false" selection-start-line="3889" selection-start-column="0" selection-end-line="3889" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Customer/php/Bill_payment/setconnection.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="8" column="31" lean-forward="false" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itoperator/php/Mail.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="30" column="63" lean-forward="false" selection-start-line="30" selection-start-column="63" selection-end-line="30" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Customer/php/Inquiry_new_PHP.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="428">
+          <caret line="32" column="60" lean-forward="false" selection-start-line="32" selection-start-column="60" selection-end-line="32" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Customer/php/Bill_payment/bill_charge.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Customer/php/Inquiry.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="8" column="173" lean-forward="false" selection-start-line="8" selection-start-column="173" selection-end-line="8" selection-end-column="173" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Customer/php/Bill_payment/viewAccount.php" />
+    <entry file="file://$PROJECT_DIR$/Customer/php/Bill_payment/dopayment.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="496">
+          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="35" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itoperator/php/view_inq_php.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="29" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/editdetails/message.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/editdetails/update_db.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/editdetails/editdetail_gui.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="686">
+          <caret line="129" column="9" lean-forward="false" selection-start-line="129" selection-start-column="9" selection-end-line="129" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/editdetails/edit_data.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="533">
+          <caret line="25" column="22" lean-forward="false" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Customer/php/database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="13" column="10" lean-forward="false" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Customer/php/Bill_payment/BillDetails.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1560">
+          <caret line="52" column="9" lean-forward="true" selection-start-line="52" selection-start-column="9" selection-end-line="52" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Customer/php/Bill_payment/app/init.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="586">
+          <caret line="31" column="98" lean-forward="false" selection-start-line="31" selection-start-column="98" selection-end-line="31" selection-end-column="98" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Customer/php/new_request.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="56" column="76" lean-forward="false" selection-start-line="56" selection-start-column="76" selection-end-line="56" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itoperator/php/conn_req_view_php.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="990">
+          <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/itoperator/php/conn_req_all_gui.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1590">
-          <caret line="53" column="42" lean-forward="false" selection-start-line="53" selection-start-column="42" selection-end-line="53" selection-end-column="42" />
+        <state relative-caret-position="1320">
+          <caret line="44" column="80" lean-forward="false" selection-start-line="44" selection-start-column="80" selection-end-line="44" selection-end-column="80" />
           <folding>
-            <marker date="1510086156435" expanded="true" signature="1972:2306" ph="..." />
-            <marker date="1510086156435" expanded="true" signature="2071:2288" ph="..." />
-            <marker date="1510086156435" expanded="true" signature="2122:2273" ph="..." />
+            <marker date="1510173456694" expanded="true" signature="200:265" ph="select branc... branch_itoperator" />
+            <marker date="1510173456694" expanded="true" signature="2596:2930" ph="..." />
+            <marker date="1510173456694" expanded="true" signature="2695:2912" ph="..." />
+            <marker date="1510173456694" expanded="true" signature="2746:2897" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itoperator/php/Inquery_gui_php.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1770">
+          <caret line="59" column="38" lean-forward="false" selection-start-line="59" selection-start-column="38" selection-end-line="59" selection-end-column="38" />
+          <folding>
+            <marker date="1510173829650" expanded="true" signature="2086:2418" ph="..." />
+            <marker date="1510173829650" expanded="true" signature="2188:2400" ph="..." />
+            <marker date="1510173829650" expanded="true" signature="2234:2385" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itoperator/style/assets/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34410">
+          <caret line="1147" column="26" lean-forward="false" selection-start-line="1147" selection-start-column="26" selection-end-line="1147" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itoperator/php/inquiry_view_data.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="20" column="25" lean-forward="false" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
+          <folding>
+            <marker date="1510173726003" expanded="true" signature="504:568" ph="UPDATE inqui... " />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/itoperator/php/conn_req_view_data.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="1" column="22" lean-forward="false" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/itoperator/php/home.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2806">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/itoperator/php/conn_req_view_php.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/itoperator/php/Inquery_gui_php.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="660">
+          <caret line="22" column="25" lean-forward="false" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
           <folding>
-            <marker date="1510086276080" expanded="true" signature="1928:2260" ph="..." />
-            <marker date="1510086276080" expanded="true" signature="2030:2242" ph="..." />
-            <marker date="1510086276080" expanded="true" signature="2076:2227" ph="..." />
+            <marker date="1510173707270" expanded="true" signature="627:700" ph="UPDATE conne... " />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/itoperator/php/inquiry_view_data.php">
+    <entry file="file://$PROJECT_DIR$/Customer/CSS/assets/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="1" column="22" lean-forward="false" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
+        <state relative-caret-position="125160">
+          <caret line="4172" column="0" lean-forward="false" selection-start-line="4172" selection-start-column="0" selection-end-line="4172" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/itoperator/php/Mail.php">
+    <entry file="file://$PROJECT_DIR$/Customer/CSS/1assets/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2637">
+        <state relative-caret-position="72000">
+          <caret line="2400" column="50" lean-forward="false" selection-start-line="2400" selection-start-column="50" selection-end-line="2400" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Customer/php/cus_view2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="26" column="14" lean-forward="false" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
+          <folding>
+            <marker date="1510165770883" expanded="true" signature="148:180" ph="SELECT name customer" />
+            <marker date="1510165770883" expanded="true" signature="148:197" ph="SELECT name customer" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itoperator/html/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/itoperator/php/response_handler.php">
+    <entry file="file://$PROJECT_DIR$/Customer/php/viewAccount.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="1" column="22" lean-forward="false" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
+        <state relative-caret-position="510">
+          <caret line="92" column="22" lean-forward="true" selection-start-line="92" selection-start-column="22" selection-end-line="92" selection-end-column="22" />
+          <folding>
+            <marker date="1510200308910" expanded="true" signature="148:206" ph="SELECT name,... customer" />
+            <marker date="1510200308910" expanded="true" signature="2270:2437" ph="SELECT bill_... " />
+            <marker date="1510200308910" expanded="true" signature="2585:2805" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login/php/home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="355">
+          <caret line="49" column="10" lean-forward="false" selection-start-line="49" selection-start-column="10" selection-end-line="49" selection-end-column="10" />
+          <folding>
+            <marker date="1510203456389" expanded="true" signature="106:186" ph="SELECT event... events" />
+            <marker date="1510203456389" expanded="true" signature="389:469" ph="SELECT event... events" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CEB_DDL_final.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/itoperator/php/view_inq_php.php">
+    <entry file="file://$PROJECT_DIR$/Meter_Reader/get_connections.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3657">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="302">
+          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding>
+            <marker date="1510144251590" expanded="true" signature="357:434" ph="SELECT meter... meter_reader" />
+            <marker date="1510144251590" expanded="true" signature="547:695" ph="SELECT meter... *" />
+            <marker date="1510144251590" expanded="true" signature="593:665" ph="SELECT * FRO... meter_reader" />
+            <marker date="1510144251590" expanded="true" signature="1354:1695" ph="select disti... connection_id" />
+            <marker date="1510144251590" expanded="true" signature="1448:1664" ph="select disti... connection_id" />
+            <marker date="1510144251590" expanded="true" signature="1514:1631" ph="SELECT disti... assigned_connection" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Meter_Reader/gui.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1030">
+          <caret line="25" column="36" lean-forward="false" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Meter_Reader/add_reading.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1180">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1510118438000" expanded="true" signature="304:384" ph="SELECT max(b... bill_details" />
+            <marker date="1510118438000" expanded="true" signature="822:935" ph="SELECT meter... bill_details" />
+            <marker date="1510118438000" expanded="true" signature="1420:1555" ph="SELECT * FRO... unit_range" />
+            <marker date="1510118438000" expanded="true" signature="1463:1536" ph="SELECT type_... connection" />
+            <marker date="1510118438000" expanded="true" signature="2383:2463" ph="SELECT due_a... Connection" />
+            <marker date="1510118438000" expanded="true" signature="2597:2702" ph="Update Conne... " />
+            <marker date="1510118438000" expanded="true" signature="2770:2909" ph="Update assig... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Customer/php/enter_request.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1139">
+          <caret line="42" column="19" lean-forward="false" selection-start-line="42" selection-start-column="19" selection-end-line="42" selection-end-column="19" />
+          <folding>
+            <marker date="1510169446355" expanded="true" signature="263:441" ph="INSERT INTO connection_request... " />
+            <marker date="1510169446355" expanded="true" signature="1188:1254" ph="SELECT branc... branch" />
+            <marker date="1510169446355" expanded="true" signature="1366:1496" ph="SELECT type_... type" />
+          </folding>
         </state>
       </provider>
     </entry>

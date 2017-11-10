@@ -24,6 +24,8 @@
         <li><a href="conn_req_all_gui.php">NEW REQUESTS</a></li>
         <li><a href="Inquery_gui_php.php">INQUIRIES</a></li>
         <li><a href="../html/Mail.html">DROP MAIL</a></li>
+        <li><a href="../../editdetails/editdetail_gui.php">EDIT DETAILS</a></li>
+        <li><a href="../../Common/Log_out.php">Log out</a></li>
     </ul>
 </nav>
 
@@ -50,7 +52,7 @@
                     <tbody>
                     <?php
 
-                    include "queary.php";
+                    include "../../Common/queary.php";
                     $tab=new queary();
                     $result=$tab->simple_select(['inquiry_id','message','Read_state'],'inquiries');
                     while ($row = $result->fetch_assoc()) {

@@ -1,10 +1,6 @@
-
-
-<!DOCTYPE HTML>
-
 <html>
 <head>
-    <title>Retrospect by TEMPLATED</title>
+    <title>Ceylon Electricity Board-Login</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <!--[if lte IE 8]><script src="../CSS/assets/js/ie/html5shiv.js"></script><![endif]-->
@@ -30,7 +26,7 @@
 <!-- Banner -->
 <section id="banner">
     <i class="icon fa-diamond"></i>
-    <h2>Cylon Electricity Board</h2>
+    <h2>Ceylon Electricity Board</h2>
     <p>We light up your future</p>
     <form action="login_submit.php" method="POST">
         <div class="container 75%">
@@ -71,6 +67,7 @@
             </a></li>
         </ul>
         <ul class="copyright">
+            <li>&copy; MINDLABZ</li>
             <li>24 hours call center DIAL 1987</li>
 
         </ul>

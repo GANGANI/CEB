@@ -22,10 +22,12 @@ include "inquiry_view_data.php";
 <!-- Nav -->
 <nav id="nav">
     <ul class="links">
-        <li><a href="../html/index.html">Home</a></li>
+        <li><a href="../html/index.html">Operetor Account</a></li>
         <li><a href="conn_req_all_gui.php">NEW REQUESTS</a></li>
         <li><a href="Inquery_gui_php.php">INQUIRIES</a></li>
         <li><a href="../html/Mail.html">DROP MAIL</a></li>
+        <li><a href="../../editdetails/editdetail_gui.php">EDIT DETAILS</a></li>
+        <li><a href="../../Common/Log_out.php">Log out</a></li>
     </ul>
 </nav>
 
@@ -106,26 +108,27 @@ include "inquiry_view_data.php";
     </div>
 </section>
 <!-- Footer -->
+<!-- Footer -->
 <footer id="footer">
     <div class="inner">
         <ul class="icons">
-            <li><a href="#" class="icon fa-facebook">
+            <li><a href="https://www.facebook.com/CeylonElectricityBoard/" class="icon fa-facebook">
                     <span class="label">Facebook</span>
                 </a></li>
-            <li><a href="#" class="icon fa-twitter">
+            <li><a href="https://twitter.com/CEB_lk?lang=en" class="icon fa-twitter">
                     <span class="label">Twitter</span>
                 </a></li>
             <li><a href="#" class="icon fa-instagram">
                     <span class="label">Instagram</span>
                 </a></li>
-            <li><a href="#" class="icon fa-linkedin">
+            <li><a href="https://www.linkedin.com/company/ceylon-electricity-board" class="icon fa-linkedin">
                     <span class="label">LinkedIn</span>
                 </a></li>
         </ul>
         <ul class="copyright">
-            <li>&copy; Untitled.</li>
+            <li>&copy; MINDLABZ</li>
+            <li>24 hours call center DIAL 1987</li>
 
-            <li>Design by: <a href="">MIND LABS GROUP</a>.</li>
         </ul>
     </div>
 </footer>

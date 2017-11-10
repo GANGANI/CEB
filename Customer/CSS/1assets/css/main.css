@@ -1934,7 +1934,7 @@
 			input[type="button"].special:hover,
 			button.special:hover,
 			.button.special:hover {
-				background-color: darkgray;
+				background-color:#0d017f;
 			}
 
 			input[type="submit"].special:active,
@@ -2415,4 +2415,8 @@ dropdown input:checked ~ ul{
 }
 h1{
 	color: #5385c1;
+}
+
+#two{
+	background-color: #555;
 }

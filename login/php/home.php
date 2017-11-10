@@ -18,11 +18,10 @@ while ($row    = mysqli_fetch_array($result)) {
 }
 mysqli_close($conn);
 ?>
-<!DOCTYPE HTML>
 
 <html>
 <head>
-    <title>Retrospect by TEMPLATED</title>
+    <title>Ceylon Electricity Board</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <!--[if lte IE 8]><script src="../CSS/assets/js/ie/html5shiv.js"></script><![endif]-->
@@ -41,16 +40,14 @@ mysqli_close($conn);
 <!-- Nav -->
 <nav id="nav">
     <ul class="links">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="generic.html">Generic</a></li>
-        <li><a href="elements.html">Elements</a></li>
+        <li><a href="../../login/php/CEB_login.php">Login</a></li>
     </ul>
 </nav>
 
 <!-- Banner -->
 <section id="banner">
     <i class="icon fa-diamond"></i>
-    <h2>Cylon Electricity Board</h2>
+    <h2>Ceylon Electricity Board</h2>
     <p>We light up your future</p>
     <ul class="actions">
         <form action="test.php" method="post">
@@ -88,7 +85,7 @@ mysqli_close($conn);
             <p></p>
         </header>
         <ul class="actions">
-            <li><a href="#" class="button big alt">Request</a></li>
+            <li><a href="../../Customer/php/new_request.php" class="button big alt">Request</a></li>
         </ul>
     </div>
 </section>
@@ -150,6 +147,7 @@ mysqli_close($conn);
                 </a></li>
         </ul>
         <ul class="copyright">
+            <li>&copy; MINDLABZ</li>
             <li>24 hours call center DIAL 1987</li>
 
         </ul>

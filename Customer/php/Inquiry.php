@@ -5,8 +5,8 @@ $conn = $con->makeConnection();
 session_start();
 $_SESSION['val']=$_POST['from'];
 $where = $_SESSION['val'];
-echo $where;
-if (isset($_POST['username']) and isset($_POST['email']) and isset($_POST['phoneNumber']) and isset($_POST['address']) and isset($_POST['message']) and isset($_POST['inquiryName'])) {
+
+if (($_POST['username'])!="" and ($_POST['email'])!="" and ($_POST['phoneNumber'])!="" and ($_POST['address'])!="" and ($_POST['message'])!="" and ($_POST['inquiryName'])!="") {
     $username = $_POST['username'];
     $email = $_POST['email'];
     $phoneNumber = $_POST['phoneNumber'];

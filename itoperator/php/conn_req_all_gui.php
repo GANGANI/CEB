@@ -1,4 +1,22 @@
+<?php
+//include "../../Common/Connection.php";
+include "../../Common/queary.php";
+session_start();
+$user = $_SESSION['us'];
+//echo $user;
+$conne = new connec();
+$con=$conne->makeConnection();
+$sql = "select branch_no from branch_itoperator where user_name = '$user'";
+//$result = $query->condition_select(['branch_no'],'branch_itoperator','operator_id ='.$user);
+$result=  $con->query($sql);
+$row =$result->fetch_assoc();
+$branch = $row['branch_no'];
+//echo $branch;
+mysqli_close($con);
 
+
+
+?>
 <html>
 <head>
     <title>NEW REQUESTS</title>
@@ -24,6 +42,9 @@
         <li><a href="conn_req_all_gui.php">NEW REQUESTS</a></li>
         <li><a href="Inquery_gui_php.php">INQUIRIES</a></li>
         <li><a href="../html/Mail.html">DROP MAIL</a></li>
+        <li><a href="../../editdetails/editdetail_gui.php">EDIT DETAILS</a></li>
+        <li><a href="../../Common/Log_out.php">Log out</a></li>
+
     </ul>
 
 </nav>
@@ -51,13 +72,13 @@
                     <tbody>
                     <?php
 
-                    include "../../Common/queary.php";
-                    $tab=new queary();
-                    $result=$tab->simple_select(['request_id','name','Read_state'],'connection_request');
 
-		                while ($row = $result->fetch_assoc()) {
-                            if ($row['Read_state']=='NO') {
-                                echo '<tr>
+                    $tab=new queary();
+                    $result=$tab->simple_select(['request_id','name','Read_state','branch_no'],'connection_request');
+
+                    while ($row = $result->fetch_assoc()) {
+                        if ($row['Read_state']=='NO' and $row['branch_no'] == $branch ) {
+                            echo '<tr>
 					    <td>' . $row['request_id'] . '</td>
 					    <td>' . $row['name'] . '</td> 
 					    <td><form method="post" action="conn_req_view_php.php">
@@ -65,8 +86,8 @@
                         </form>
 					    </td>
 				        </tr>';
-                            }
                         }
+                    }
                     ?>
                     </tbody>
 
@@ -86,23 +107,23 @@
 <footer id="footer">
     <div class="inner">
         <ul class="icons">
-            <li><a href="#" class="icon fa-facebook">
+            <li><a href="https://www.facebook.com/CeylonElectricityBoard/" class="icon fa-facebook">
                     <span class="label">Facebook</span>
                 </a></li>
-            <li><a href="#" class="icon fa-twitter">
+            <li><a href="https://twitter.com/CEB_lk?lang=en" class="icon fa-twitter">
                     <span class="label">Twitter</span>
                 </a></li>
             <li><a href="#" class="icon fa-instagram">
                     <span class="label">Instagram</span>
                 </a></li>
-            <li><a href="#" class="icon fa-linkedin">
+            <li><a href="https://www.linkedin.com/company/ceylon-electricity-board" class="icon fa-linkedin">
                     <span class="label">LinkedIn</span>
                 </a></li>
         </ul>
         <ul class="copyright">
-            <li>&copy; Untitled.</li>
+            <li>&copy; MINDLABZ</li>
+            <li>24 hours call center DIAL 1987</li>
 
-            <li>Design by: <a href="">MIND LABS GROUP</a>.</a>.</li>
         </ul>
     </div>
 </footer>

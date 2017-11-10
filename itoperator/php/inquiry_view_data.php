@@ -15,7 +15,10 @@ $des = $row['message'];
 $i_name=$row['Inquiry'];
 $u_id=$row['customer_id'];
 $i_id = $row['inquiry_id'];
-
+$sql = "UPDATE inquiries SET Read_state = 'YES'  WHERE inquiry_id='$var'";
+$connec = new connec();
+$conn = $connec->makeConnection();
+mysqli_query($conn,$sql);
 
 
 

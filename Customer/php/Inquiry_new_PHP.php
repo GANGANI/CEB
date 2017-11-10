@@ -30,9 +30,13 @@ $row = $result->fetch_assoc();
 <!-- Nav -->
 <nav id="nav">
     <ul class="links">
-        <li><a href="home.php">Home</a></li>
-        <li><a href="Customer%20View_PHP.php">My Account</a></li>
-        <li><a href="Log_out.php">Login</a></li>
+        <li><a href="../../login/php/home.php">Home</a></li>
+        <li><a href="../../Customer/php/cus_view2.php">Home</a></li>
+        <li><a href="cus_view2.php">My Account</a></li>
+        <li><a href="viewAccount.php">My connection</a></li>
+        <li><a href="../../editdetails/editdetail_gui.php">EDIT DETAILS</a></li>
+        <li><a href="../../Common/Log_out.php">Log out</a></li>
+
     </ul>
 </nav>
 
